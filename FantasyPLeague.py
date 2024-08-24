@@ -26,7 +26,7 @@ def fetch_data():
 
     print(f"DataFrame shape after selection: {players_df.shape}")
 
-    players_df = players_df[players_df["minutes"] > 60]
+    players_df = players_df[players_df["minutes"] > 100]
 
     print(f"DataFrame shape after filtering: {players_df.shape}")
 
